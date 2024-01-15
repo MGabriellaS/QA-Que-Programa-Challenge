@@ -1,7 +1,7 @@
 # Dia 4: Contador de Palavras
 
 ## 🎯Desafio
-Crie um script que verifica se uma palavra ou frase fornecida pelo usuário é um palíndromo. Palíndromo é uma palavra ou uma frase que de frente pra trás e de trás pra frente são iguais, por exemplo, "ovo", "radar" e "Ame o poema".
+Desenvolva um programa que conte o número de palavras em um texto fornecido pelo usuário. O programa deve ser capaz de separar as palavras em um texto e determinar quantas palavras estão presentes.
 
 ## 📚Quais conhecimentos eu preciso adquirir para resolver este desafio?
 - Manipulação de Strings: Você precisará entender como usar funções de strings, como split(), para separar o texto em palavras.
