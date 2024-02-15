@@ -2,7 +2,6 @@ def formatar_texto(texto):
     # Remove espaços, vírgulas, interrogações, exclamações e pontos
     # e converte o texto para minúsculas
     caracteres_remover = [" ", ",", ".", "!", "?"]
-       
     texto_formatado = ""
     for caractere in texto:
         if caractere.lower() not in caracteres_remover:

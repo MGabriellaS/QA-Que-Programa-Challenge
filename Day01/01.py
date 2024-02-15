@@ -1,9 +1,8 @@
 # Solicita ao usuário inserir um número
 try:
-    # Solicita ao usuário inserir um número como uma string
-    numero_str = input("Digite um número: ")
+    # Solicita ao usuário inserir um número como uma string e
     # Converte a string para um número inteiro
-    numero = int(numero_str)
+    numero = int(input("Digite um número: "))
 except ValueError:
     # Captura uma exceção caso a conversão não seja possível
     # (por exemplo, se o usuário inserir um texto não numérico)

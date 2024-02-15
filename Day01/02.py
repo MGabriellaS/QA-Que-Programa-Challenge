@@ -6,10 +6,9 @@ def verificar_paridade(numero):
 
 
 try:
-    # Solicita ao usuário inserir um número como uma string
-    numero_str = input("Digite um número: ")
+    # Solicita ao usuário inserir um número como uma string e
     # Converte a string para um número inteiro
-    numero = int(numero_str)
+    numero = int(input("Digite um número: "))
 except ValueError:
     # Se ocorrer um erro durante a conversão, imprime uma mensagem de erro
     print("Por favor, insira um número inteiro válido.")

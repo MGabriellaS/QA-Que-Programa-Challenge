@@ -1,4 +1,4 @@
-def realizar_operacao(operacao, num1, num2):
+def calcular(operacao, num1, num2):
     if operacao == "+":
         resultado = num1 + num2
     elif operacao == "-":
@@ -29,10 +29,10 @@ def main():
         num2 = float(input("Digite o segundo número: ").replace(",", "."))
     except ValueError:
         print("Erro: Insira números válidos.")
-        return
+        return None
 
     # Chama a função para realizar a operação
-    resultado = realizar_operacao(operacao, num1, num2)
+    resultado = calcular(operacao, num1, num2)
 
     # Imprime o resultado, se houver
     if resultado is not None:
